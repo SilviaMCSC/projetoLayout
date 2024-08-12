@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--<style name="Base.Theme.ProjetoLayout" parent="Theme.Material3.DayNight.NoActionBar">-->
+    <style name="Base.Theme.ProjetoLayout" parent="Theme.AppCompat.Light">
+
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryDark">@android:color/holo_orange_light</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/corFundo</item>
+        <item name="android:textColor">@color/corTexto</item>
+        <item name="android:textColorPrimary">@color/corTítulo</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ProjetoLayout" parent="Base.Theme.ProjetoLayout" />
+</resources>
